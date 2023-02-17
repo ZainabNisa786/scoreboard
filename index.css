@@ -1,0 +1,93 @@
+
+    @font-face {
+        font-family: "CursedTimerUlil-Aznm";
+        src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+      } 
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CursedTimerUlil-Aznm";
+}
+.stick{
+    width: 40%;
+    background-color: #1B244A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    color: #F94F6D;
+    font-size: 1.5rem;
+}
+#container{
+    width: 40%;
+    min-height: 400px;
+    background-color: #1B244A;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home,.guest{
+
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 20px;
+    color: #EEEEEE;
+    font-weight: 700;
+
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div h1{
+    font-size: 7rem;
+    font-weight: 300;
+    padding: 25px 30px 0px 30px;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 10px;
+
+}
+.box{
+    width: 40%;
+    text-align: center;
+}
+.btns{
+    margin-top: 20px;
+}
+
+button{
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+    background-color: transparent;
+    color: #9AABD8;
+    /* width: 20%; */
+}
+@media only screen and (max-width:880px) {
+
+    #container{
+        width: 100%;
+    }
+    .div{
+    }
+    .div h1{
+        font-size: 4rem;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    button{
+        padding: 5px;
+    }
+    .stick{
+        width: 100%;
+    }
+}

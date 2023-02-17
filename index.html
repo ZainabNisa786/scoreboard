@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="box box1">
+            <h1 class="home">Team 1</h1>
+            <div class="div">
+                <h1 id="home-ch">
+                    0
+                </h1>
+            </div>
+            <div class="btns">
+                <button onclick="increOne()">+1</button>
+                <button onclick="increTwo()">+2</button>
+                <button onclick="increThr()" >+3</button>
+            </div>
+        </div>
+
+        <div class="box box2">
+            <h1 class="guest">Team 2</h1>
+            <div class="div">
+                <h1 id="guest-ch">
+                    0
+                </h1>
+            </div>
+            <div class="btns">
+                <button onclick="increeOne()">+1</button>
+                <button onclick="increeTwo()">+2</button>
+                <button onclick="increeThr()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button class="stick" onclick="restart()">Restart</button>
+
+    <script src="index.js"></script>
+</body>
+</html>

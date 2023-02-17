@@ -1,0 +1,27 @@
+
+    @font-face {
+        font-family: "CursedTimerUlil-Aznm";
+        src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+      }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'digital';
+}
+#container{
+    width: 50%;
+    min-height: 400px;
+    background-color: #064E3B;
+    margin: auto;
+    margin-top: 120px;
+}
+@media only screen and (max-width:830px) {
+
+    #container{
+        width: 100%;
+    }
+
+}
